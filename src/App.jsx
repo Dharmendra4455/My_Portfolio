@@ -10,7 +10,7 @@ import { RiTailwindCssFill } from 'react-icons/ri'
 import { FaReact } from 'react-icons/fa'
 import { SiCompilerexplorer, SiExpress } from 'react-icons/si'
 import { DiMongodb } from 'react-icons/di'
-import { Projects1 } from './Component/Projects1'
+//import { Projects1 } from './Component/Projects1'
 import { Projects2 } from './Component/Projects2'
 import EMS from '../src/assets/images/team.png'
 import IC from '../src/assets/images/gallary.png'
@@ -33,8 +33,8 @@ function App() {
       <Aboutme/>
       <hr />
 
-      <h1  name="skills" className=' ml-5 text-white text-[4vw] sm:text-[3.4vw]  font-bold pt-2 md:text-[2.4vw] text-center underline font-sans'>Technical Skills</h1>
-      <div className='text-white font-bold text-2xl ml-[2vw] mt-5'>FRONTEND</div>
+      <h1  name="skills" className=' ml-5 text-white text-[6vw] sm:text-[3.4vw]  font-bold pt-2 md:text-[2.4vw] text-center underline font-sans'>Technical Skills</h1>
+      <div className='text-white font-bold text-xl ml-[2vw] mt-12'>FRONTEND</div>
       <div className="fromtend flex  flex-wrap justify-center">
       
       <Skills name={"HTML"} logo={< FaHtml5/>}/>
@@ -43,7 +43,7 @@ function App() {
       <Skills name={"JavaScript"} logo={<FaJs/>}/>
       <Skills name={"React"} logo={<FaReact/>}/>
       </div>
-      <div className='text-white font-bold text-2xl ml-[2vw] mt-8'>BACKEND</div>
+      <div className='text-white font-bold text-xl ml-[2vw] mt-24'>BACKEND</div>
       <div className="fromtend flex  flex-wrap justify-center">
       
       <Skills name={"JavaScript"} logo={<IoLogoJavascript/>}/>
@@ -52,7 +52,7 @@ function App() {
       <Skills name={"MongoDB"} logo={<DiMongodb/>}/>
       </div>
 
-      <div className='text-white font-bold text-2xl ml-[2vw] mt-8'>OTHER</div>
+      <div className='text-white font-bold text-xl ml-[2vw] mt-24'>OTHER</div>
       <div className="fromtend flex  flex-wrap justify-center mb-12">
       
       <Skills name={"GIT"} logo={<FaGitAlt/>}/>
@@ -60,18 +60,27 @@ function App() {
       <Skills name={"Python"} logo={<FaPython/>}/>
       </div>
       <hr />
-      <h1  name="project" className=' ml-5 text-white text-[4vw] sm:text-[3.4vw]  font-bold pt-2 md:text-[2.4vw] text-center underline font-sans mb-10'>Projects</h1>
-      <Projects1 name={"Employee Management System"} logo={EMS} code={"https://github.com/Dharmendra4455/Employee_Management_System"} view={"https://dharmendra4455.github.io/Employee_Management_System/"}/>
+      <h1  name="project" className=' ml-5 text-white text-[6vw] sm:text-[3.4vw]  font-bold pt-2 md:text-[2.4vw] text-center underline font-sans mb-10'>Projects</h1>
+      <div className=' flex gap-3 flex-wrap justify-center'>
+      <Projects2 name={"Employee Management System"} logo={EMS} code={"https://github.com/Dharmendra4455/Employee_Management_System"} view={"https://dharmendra4455.github.io/Employee_Management_System/"}/>
       <Projects2 name={"Image Collection"} logo={IC} code={"https://github.com/Dharmendra4455/Web-Development-Project-Image-Collections-"} view={"https://dharmendra4455.github.io/Web-Development-Project-Image-Collections-/"}/>
-      <Projects1 name={"Netflix Home Page Clone"} logo={Netflix} code={"https://github.com/Dharmendra4455/Netflix_Clone-Project"} view={"https://dharmendra4455.github.io/Netflix_Clone-Project/"}/>
+      <Projects2 name={"Netflix Home Page Clone"} logo={Netflix} code={"https://github.com/Dharmendra4455/Netflix_Clone-Project"} view={"https://dharmendra4455.github.io/Netflix_Clone-Project/"}/>
       <Projects2 name={"Weather Reports"} logo={Weather} code={"https://github.com/Dharmendra4455/Weather_details"} view={"https://dharmendra4455.github.io/Weather_details/"}/> 
+      </div>
+       
       <div className='text-white font-bold text-2xl ml-[2vw] mt-8 mb-5 underline'>Games</div>
-      <Projects1 name={"Tic Tac Toe"} logo={tictactoe} code={"https://github.com/Dharmendra4455/Tic_Tac_Too"} view={"https://dharmendra4455.github.io/Tic_Tac_Too/"}/>
+      <div className=' flex gap-3 flex-wrap justify-center'>
+      <Projects2 name={"Tic Tac Toe"} logo={tictactoe} code={"https://github.com/Dharmendra4455/Tic_Tac_Too"} view={"https://dharmendra4455.github.io/Tic_Tac_Too/"}/>
       <Projects2 name={"Rock Paper Scissor"} logo={rockpaper} code={"https://github.com/Dharmendra4455/Rock_paper_scissor"} view={"https://dharmendra4455.github.io/Rock_paper_scissor/"}/>
-      <div className='text-white font-bold text-2xl ml-[2vw] mt-8 mb-5 underline'>Minor Projects</div>
-      <Projects1 name={"Digital Calculator"} logo={calculator}/>
+      </div>
+      
+      <div className=' text-white font-bold text-2xl ml-[2vw] mt-8 mb-5 underline'>Minor Projects </div>
+      <div className=' flex gap-3 flex-wrap justify-center'>
+      <Projects2 name={"Digital Calculator"} logo={calculator}/>
       <Projects2 name={"Quiz App"} logo={quiz} code={"https://github.com/Dharmendra4455/Quiz_App"} view={"https://dharmendra4455.github.io/Quiz_App/"}/>
-      <Projects1 name={"TO Do List App"} logo={todo}/>
+      <Projects2 name={"TO Do List App"} logo={todo}/>
+      </div>
+     
     <hr />
     <Contact/>
     

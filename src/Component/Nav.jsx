@@ -44,8 +44,6 @@ const Nav = () => {
     <span className='Dhar pl-4  pt-3 pb-3 w-40'>Dharmendra</span>
     <span className=' patel pr-4 pt-3 pb-3 w-40'> Patel</span>
     </div>
-   
-
    <Link to="Aboutme" smooth duration={700}><div className='topmenu hover:bg-black  hover:cursor-pointer  pl-4 pr-4 pt-3 pb-3'>About</div></Link>
    <Link to="skills" smooth duration={700}><div className='topmenu hover:bg-black  hover:cursor-pointer  pl-4 pr-4 pt-3 pb-3'>Skills</div></Link>
    <Link to="project" smooth duration={700}><div className='topmenu hover:bg-black  hover:cursor-pointer  pl-4 pr-4 pt-3 pb-3'>Projects</div></Link>

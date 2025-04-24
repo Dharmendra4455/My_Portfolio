@@ -10,18 +10,17 @@ import { TypeAnimation } from 'react-type-animation'
   <div className='z-0 mt-8 md:mt-14 sm:pl-3 pb-24 '>
 
     <div className="  flex  ml-[3vw] mt-5 sm:justify-start  md:ml-[30px]">
-     <h1 className='text-3xl font-bold text-white md:text-4xl selection:text-blue-400'>Hii I'm</h1>
-   
-    </div>
-
-    <div className="name_image" >
-      <div className='flex'>
-    <h1 className='Dharname ml-[5vw] font-bold text-[40px] sm:text-[6.5vw] md:ml-[40px] md:text-[46px] '>DHARMENDRA PATEL</h1>
-    <span class="flex h-3 w-3 pointer-events-none">
+     <h1 className='ml-2 text-3xl font-bold text-white md:text-4xl selection:text-blue-400'>Hii I'm</h1>
+     <span class="flex h-3 w-3  pointer-events-none">
       <span class="animate-ping absolute inline-flex h-4 w-4 rounded-full  opacity-75"></span>
       <span class=" ping relative inline-flex rounded-full h-3 w-3"></span>
       </span>
     </div>
+
+    <div className="name_image" >
+     
+    <h1 className='Dharname  ml-[20px] font-bold md:ml-[40px] text-[30px] sm:text-[5.5vw]  md:text-[40px] '>DHARMENDRA PATEL</h1>
+   
     
     {/* <TypeAnimation
       sequence={[
@@ -71,11 +70,9 @@ import { TypeAnimation } from 'react-type-animation'
       {/* <h1 className=' text-red-400  ml-80 font-bold text-[40px] sm:text-[6.5vw] sm:ml-64'> </h1> */}
       {/* </div> */}
       </div>
-      <div className="imgcontainer  flex justify-end gap-[4vw] mr-2 ml-2 sm:mr-6 sm:ml-4 sm:justify-between sm:pr-3 md:mt-5">
-
-      <div>
-      <h1 className=' webdevname  ml-2 text-[40px] font-bold  sm:text-[45px]   sm:font-extrabold sm:text-white md:text-[45px] md:ml-[40px]'>WEB DEVELOPER</h1>
-      <h1 className=' animateskills text-4xl text-white font-bold mb-5 mt-5 md:ml-[40px]'>
+      <div className="imgcontainer  flex  gap-[4vw] mr-[1vw] ml-[20px] sm:mr-6 sm:ml-4 sm:justify-between sm:pr-3 md:mt-5"><div>
+      <h1 className=' webdevname  ml-2 text-[25px] font-bold  sm:text-[30px]   sm:font-bold sm:text-white md:text-[35px] md:ml-[40px]'>WEB DEVELOPER</h1>
+      <h1 className=' animateskills text-[25px] sm:text-[5.5vw]  md:text-[40px]  text-white font-bold mb-5 mt-5 md:ml-[40px]'>
       <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
@@ -105,7 +102,7 @@ import { TypeAnimation } from 'react-type-animation'
       </h1>
       <Homepagewrite/>
       </div >
-        <div className=" photoframe h-[170px] w-[185px] sm:h-[210px] sm:w-[220px] md:h-[31vw] md:w-[31vw] ">
+        <div className=" photoframe h-[185px] w-[185px] sm:h-[210px] sm:w-[220px] md:h-[31vw] md:w-[31vw] ">
          
         </div>
       </div>
