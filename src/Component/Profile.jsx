@@ -13,7 +13,7 @@ export const Profile = () => {
   return (
     <>
     <div onClick={clickhandler}  className="  profile absolute z-10 inline-block ml-2 ">
-    <div className=' profilecontainer h-[80.5vh] w-56 opacity-95'>
+    <div className=' profilecontainer h-auto w-56 opacity-95'>
      <div className="profileimagecontainer flex justify-center">
        <div className="menuprofilephoto mt-3 h-24 w-24 border text-white text-8xl rounded-full">
         <img className='rounded-full' src={profile} alt="profile" />

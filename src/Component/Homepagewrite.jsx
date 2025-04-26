@@ -14,7 +14,7 @@ const Homepagewrite = () => {
     <div className='flex justify-start mt-4 gap-2'>
    <div className='  text-2xl mt-1.5 text-white  ml-[12px] md:ml-[40px] bg-zinc-800 rounded-full'><FaChevronRight/></div>
    <div className='resume  rounded pl-2 pr-2'>
-   <a download={"RESUME"} className='font-bold text-[16px]  md:ml-[10px] ' href="src/assets/images/OIP.jpg">Resume</a>
+   <a download={"RESUME"} className='font-bold text-[16px]  md:ml-[10px] ' href="src/assets/images/My-Resume.pdf">Resume</a>
    </div>
     
     </div>
