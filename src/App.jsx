@@ -62,6 +62,7 @@ function App() {
       <hr />
       <h1  name="project" className=' ml-5 text-white text-[6vw] sm:text-[3.4vw]  font-bold pt-2 md:text-[2.4vw] text-center underline font-sans mb-10'>Projects</h1>
       <div className=' flex gap-3 flex-wrap justify-center'>
+      <Projects2 name={"Hospital Management System"} logo={""} code={"https://github.com/Dharmendra4455/Hospital_Management_System"} view={""}/>
       <Projects2 name={"Employee Management System"} logo={EMS} code={"https://github.com/Dharmendra4455/Employee_Management_System"} view={"https://dharmendra4455.github.io/Employee_Management_System/"}/>
       <Projects2 name={"Image Collection"} logo={IC} code={"https://github.com/Dharmendra4455/Web-Development-Project-Image-Collections-"} view={"https://dharmendra4455.github.io/Web-Development-Project-Image-Collections-/"}/>
       <Projects2 name={"Netflix Home Page Clone"} logo={Netflix} code={"https://github.com/Dharmendra4455/Netflix_Clone-Project"} view={"https://dharmendra4455.github.io/Netflix_Clone-Project/"}/>
