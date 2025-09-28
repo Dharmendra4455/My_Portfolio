@@ -50,7 +50,7 @@ const Nav = () => {
           <Link to="project" smooth duration={700}><div className='topmenu hover:bg-black  hover:cursor-pointer   pl-4 pr-4 pt-3 pb-3'>Projects</div></Link>
           <Link to="contact" smooth duration={700}><div className='topmenu hover:bg-black  hover:cursor-pointer   pl-4 pr-4 pt-3 pb-3'>Contact</div></Link>
         
-        </div>
+        </div> 
       </div>
      
       {/* {profile ? <Profile /> :""} */}
