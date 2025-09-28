@@ -53,7 +53,7 @@ const Nav = () => {
         </div>
       </div>
      
-      {/* {profile ? <Profile /> : ""} */}
+      {/* {profile ? <Profile /> :""} */}
 
 
     </>
