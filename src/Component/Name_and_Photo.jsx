@@ -7,9 +7,9 @@ import { TypeAnimation } from 'react-type-animation'
   
 //console.log( document.getElementsByClassName('.photoframe')) 
  return (<>
-  <div className='z-0 mt-8 md:mt-14 sm:pl-3 pb-24 '>
+  <div className='z-0 mt-1 md:mt-1 sm:pl-3 pb-24 '>
 
-    <div className="  flex  ml-[3vw] mt-5 sm:justify-start  md:ml-[30px]">
+    <div className="  flex  ml-[3vw] mt-1 sm:justify-start  md:ml-[30px]">
      <h1 className='ml-2 text-3xl font-bold text-white md:text-4xl selection:text-blue-400'>Hii I'm</h1>
      <span class="flex h-3 w-3  pointer-events-none">
       <span class="animate-ping absolute inline-flex h-4 w-4 rounded-full  opacity-75"></span>
@@ -84,6 +84,8 @@ import { TypeAnimation } from 'react-type-animation'
         1500,
         'JAVASCRIPT',
         1500,
+        'TYPESCRIPT',
+        1500,
         'REACT',
         1500,
         'NODE JS',
@@ -91,6 +93,8 @@ import { TypeAnimation } from 'react-type-animation'
         'EXPRESS',
         1500,
         "MONGODB",
+        1500,
+        "GIT",
         1500
 
       ]}
