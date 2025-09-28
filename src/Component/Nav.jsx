@@ -39,7 +39,7 @@ const Nav = () => {
           {/* <div className='pl-4 hover:cursor-pointer  pr-4 pt-5 pb-5 hover:scale-150' onClick={profileclickhandler}><IoMenu /></div> */}
           {/* <div onClick={menulisthandler} className='pl-4  pr-4 pt-3 pb-3 hover:bg-black '>=</div> */}
         {/* </div> */}
-        <div className=' h-16 flex items-center justify-end w-full   font-bold text-md  bg-#0a0a0a text-white'>
+        <div className=' h-16 flex items-center justify-end w-full   font-bold text-md   bg-#0a0a0a text-white'>
           {/* <div className='topleftname'>
             <span className='Dhar pl-4  pt-3 pb-3 w-40'>Dharmendra</span>
             <span className=' patel pr-4 pt-3 pb-3 w-40'> Patel</span>
