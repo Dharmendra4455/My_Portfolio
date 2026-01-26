@@ -4,15 +4,17 @@ import Nav from './Component/Nav'
 import { Name_and_Photo } from './Component/Name_and_Photo'
 import Aboutme from './Component/Aboutme'
 import { Skills } from './Component/Skills'
-import { FaGitAlt, FaHtml5, FaJs, FaNodeJs, FaPython } from 'react-icons/fa6'
+import { FaGitAlt, FaHtml5, FaJava, FaJs, FaNodeJs, FaPython } from 'react-icons/fa6'
 import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io'
 import { RiTailwindCssFill } from 'react-icons/ri'
 import { FaReact } from 'react-icons/fa'
-import { SiCompilerexplorer, SiExpress } from 'react-icons/si'
+import { SiCompilerexplorer, SiExpress, SiNextdotjs } from 'react-icons/si'
 import { DiMongodb } from 'react-icons/di'
 //import { Projects1 } from './Component/Projects1'
 import { Projects2 } from './Component/Projects2'
 import EMS from '../src/assets/images/team.png'
+import HMS from '../src/assets/images/HMS.png'
+import HMS2 from '../src/assets/images/HMS2.jpeg'
 import IC from '../src/assets/images/gallary.png'
 import Netflix from '../src/assets/images/netflix_732228.png'
 import Weather from '../src/assets/images/weather.png'
@@ -22,6 +24,8 @@ import calculator from '../src/assets/images/calculator.png'
 import todo from '../src/assets/images/to-do-list-icon-buy-this-icon-for--0-48-1.png'
 import quiz from '../src/assets/images/Quizapp.png'
 import { Contact } from './Component/Contact'
+import { BiLogoPostgresql } from 'react-icons/bi'
+import { TbBrandCSharp } from 'react-icons/tb'
 
 function App() {
   return (
@@ -41,7 +45,9 @@ function App() {
       <Skills name={"CSS"} logo={<IoLogoCss3/>}/>
       <Skills name={"Tailwindcss"} logo={<RiTailwindCssFill/>}/>
       <Skills name={"JavaScript"} logo={<FaJs/>}/>
-      <Skills name={"React"} logo={<FaReact/>}/>
+      <Skills name={"ReactJS"} logo={<FaReact/>}/>
+      <Skills name={"NextJS"} logo={<SiNextdotjs />}/>
+
       </div>
       <div className='text-white font-bold text-xl ml-[2vw] mt-24'>BACKEND</div>
       <div className="fromtend flex  flex-wrap justify-center">
@@ -50,6 +56,7 @@ function App() {
       <Skills name={"NodeJS"} logo={<FaNodeJs/>}/>
       <Skills name={"Express"} logo={<SiExpress/>}/>
       <Skills name={"MongoDB"} logo={<DiMongodb/>}/>
+      <Skills name={"PostgresSQL"} logo={<BiLogoPostgresql />}/>
       </div>
 
       <div className='text-white font-bold text-xl ml-[2vw] mt-24'>OTHER</div>
@@ -57,12 +64,14 @@ function App() {
       
       <Skills name={"GIT"} logo={<FaGitAlt/>}/>
       <Skills name={"C"} logo={<SiCompilerexplorer/>}/>
+      <Skills name={"C#"} logo={<TbBrandCSharp />}/>
+      <Skills name={"Java"} logo={<FaJava />}/>
       <Skills name={"Python"} logo={<FaPython/>}/>
       </div>
       <hr />
       <h1  name="project" className=' ml-5 text-white text-[6vw] sm:text-[3.4vw]  font-bold pt-2 md:text-[2.4vw] text-center underline font-sans mb-10'>Projects</h1>
       <div className=' flex gap-3 flex-wrap justify-center'>
-      <Projects2 name={"Hospital Management System"} logo={""} code={"https://github.com/Dharmendra4455/Hospital_Management_System"} view={""}/>
+      <Projects2 name={"Hospital Management System"} logo={HMS2} code={"https://github.com/Dharmendra4455/Hospital_Management_System"} view={'/'}/>
       <Projects2 name={"Employee Management System"} logo={EMS} code={"https://github.com/Dharmendra4455/Employee_Management_System"} view={"https://dharmendra4455.github.io/Employee_Management_System/"}/>
       <Projects2 name={"Image Collection"} logo={IC} code={"https://github.com/Dharmendra4455/Web-Development-Project-Image-Collections-"} view={"https://dharmendra4455.github.io/Web-Development-Project-Image-Collections-/"}/>
       <Projects2 name={"Netflix Home Page Clone"} logo={Netflix} code={"https://github.com/Dharmendra4455/Netflix_Clone-Project"} view={"https://dharmendra4455.github.io/Netflix_Clone-Project/"}/>
