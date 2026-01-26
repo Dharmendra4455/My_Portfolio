@@ -1,6 +1,6 @@
 import React from 'react'
 import Homepagewrite from './Homepagewrite'
-import photo from '../assets/images/OIP.jpg'
+import photo from '../assets/images/OIP.png'
 import { TypeAnimation } from 'react-type-animation'
  export const Name_and_Photo = () => {
 //   const photoframe= document.getElementsByClassName('.photoframe')
@@ -95,6 +95,10 @@ import { TypeAnimation } from 'react-type-animation'
         "MONGODB",
         1500,
         "GIT",
+        1500,
+        "C#",
+        1500,
+        "Java",
         1500
 
       ]}
@@ -106,7 +110,7 @@ import { TypeAnimation } from 'react-type-animation'
       </h1>
       <Homepagewrite/>
       </div >
-        <div className=" photoframe h-[185px] w-[185px] sm:h-[210px] sm:w-[220px] md:h-[31vw] md:w-[31vw] ">
+        <div className=" photoframe h-[185px] w-[185px] sm:h-[210px] sm:w-[220px] md:h-[30vw] md:w-[30vw] ">
          
         </div>
       </div>

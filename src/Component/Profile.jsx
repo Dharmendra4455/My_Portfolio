@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { CgProfile } from 'react-icons/cg';
-import profile from '../assets/images/OIP.jpg'
+import profile from '../assets/images/OIP.png'
 import { Link } from 'react-scroll';
 export const Profile = () => {
   const clickhandler=()=>{
