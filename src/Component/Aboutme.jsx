@@ -9,7 +9,7 @@ const Aboutme = () => {
                     I always keen to learn about new Technology and their functionality.
                     Apart from Programming skills I also know about electronics Hardware.
                 </div>
-                <div className="container-box h-full w-full flex flex-wrap justify-evenly gap-2 mb-4">
+                <div className="container-box h-full w-full flex flex-wrap justify-evenly gap-4 mb-4 px-4">
                     <div className="educationsection text-md">
                         <div className=' pt-1.5 pb-1.5 pl-5 pr-5 font-bold text-[25px] text-zinc-200'>Education</div>
                         <div className="cards  bg-zinc-800 hover:scale-105   h-[450px] w-[320px] rounded p-1 ">
@@ -17,7 +17,7 @@ const Aboutme = () => {
                                 <li className=' text-xl  sm:block font-bold text-center underline mt-1 text-white pt-2'> HighSchool</li>
                                 <li className='ml-4 text-zinc-200 '> MVM Public School</li>
                                 <li className='ml-4 text-zinc-200 '> 2018-19</li>
-                                <li className='ml-4 text-zinc-200 '> Percentage: 82.4%</li>
+                                <li className='ml-4 text-zinc-200 '> Percentage: 88.4%</li>
 
                             </ul>
                             <ul className='text-zinc-100'>
@@ -42,7 +42,7 @@ const Aboutme = () => {
                         <div className=' pt-1.5 pb-1.5 pl-5 pr-5 font-bold text-[25px] text-zinc-200'>Certificates</div>
                         <div className="cards bg-zinc-800 hover:scale-105  h-[450px] w-[320px] rounded p-1">
                             <ul className='text-zinc-200 mt-1 pr-1'>
-                                <li className=' text-xl  sm:block font-bold text-center underline mt-1 text-white'> Software Engineer INTERN</li>
+                                <li className=' text-xl  sm:block font-bold text-center underline mt-1 text-white'> Software Engineer Intern</li>
                                 <li className='ml-4 text-zinc-200 mt-1'>Worked on e-commerce projects focusing on features design,bug fixing,and RESTful API handling
                                     while collaborating with development team.
                                 </li>
