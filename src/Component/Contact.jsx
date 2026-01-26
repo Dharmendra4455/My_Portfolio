@@ -4,17 +4,17 @@ import { MdOutlineMail } from 'react-icons/md'
 
 export const Contact = () => {
   return (
-    <div className="flex justify-center">
-        <div name="contact" className='mt-1 h-auto w-[377px] pb-10'>
+    <div className="flex justify-center ">
+        <div name="contact" className='mt-1 h-auto min-w-[320px] w-[50%] pb-5'>
             <h1  className='text-white text-3xl font-bold text-center underline'>Contacts</h1>
             <h1  className='text-white text-10 mt-5 font-bold text-center'>Get in Touch with us.</h1>
-        <div  className="infobox ml-5 mt-10">
+        <div  className="infobox ml-5 mt-10 flex flex-col justify-center  w-auto max-w-full">
          {/* <h1 className='text-white text-xl mb-1 font-sans'>Name</h1> */}
-         <input placeholder='Name' className='pl-1  h-10 w-72 text-gray-100 rounded outline-none text-24 font-sans font-semibold bg-zinc-800 mb-2' type="text"/>
+         <input placeholder='Name' className='pl-1  h-10   text-gray-100 rounded outline-none text-24 font-sans font-semibold bg-zinc-800 mb-2' type="text"/>
          {/* <h1 className='text-white text-xl mb-1 mt-1'>Email</h1> */}
-         <input placeholder='Email' typeof='email' required className='pl-1 mb-2 block h-10 w-72 text-gray-100 rounded outline-none text-24 font-sans font-semibold bg-zinc-800 ' type="email"/>
-         <textarea name=""  id="" className='outline-none h-28 pl-1 bg-zinc-800 text-gray-100 text-40 font-bold  w-72 rounded font-serif block' placeholder='Comment...'></textarea>
-        <button type='submit' className=' mt-1 w-72 bg-green-600 rounded text-white pt-2 pb-2 pl-5 pr-5'>Send</button>
+         <input placeholder='Email' typeof='email' required className='pl-1 mb-2 block h-10  text-gray-100 rounded outline-none text-24 font-sans font-semibold bg-zinc-800 ' type="email"/>
+         <textarea name=""  id="" className='outline-none h-28 pl-1 bg-zinc-800 text-gray-100 text-40 font-bold  rounded font-serif block' placeholder='Comment...'></textarea>
+        <button type='submit' className=' mt-1  bg-green-600 rounded text-white pt-2 pb-2 pl-5 pr-5'>Send</button>
         </div>
         
         
